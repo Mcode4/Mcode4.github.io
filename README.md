@@ -17,8 +17,8 @@ Email: lam7dev7@gmail.com
 [First Copy](https://docs.google.com/document/d/1S0wTKThI_Huk2qb2w02_fV1CZVxlcMTkgWIWjQpTEM4/edit?usp=sharing)
 
 ## LinkedIn and GitHub Links
-LinkedIn: https://www.linkedin.com/in/marcellies-armstrong-00abb0340/
+[LinkedIn](https://www.linkedin.com/in/marcellies-armstrong-00abb0340/)
 
-GitHub: https://github.com/Mcode4
+[GitHub](https://github.com/Mcode4)
 
 
