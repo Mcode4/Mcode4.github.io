@@ -1,7 +1,8 @@
 # Marcellies' Portfolio
 
 ## About Me
-I am a 20 years old Software Engineer, from Columbus, GA and passionate about tech. I've being using computers since I was young for things like gaming and video surfing with my passion at the time being art and transited fulling into tech a year. I've been coding in JS for around a year and using Express and Sequelize for around half a year.
+I am Software Engineer from Columbus, GA and passionate about tech. I've being using computers since I was young for things like gaming and video surfing with my passion at the time being art and transited fulling into tech
+. I've been coding in JS for around a year and using Express and Sequelize for around half a year.
 
 ## Skills Section
 1. JS, HTML, CSS, ExpressJS, SQLite3, Sequelize
