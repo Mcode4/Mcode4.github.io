@@ -8,12 +8,12 @@ I am Software Engineer from Columbus, GA and passionate about software developme
 2. Creative, Understanding, Problem Solving, Clear Communication
 
 ## Projects Section
-Spot Homes Site - Jan 2025
+### Spot Homes Site - Jan 2025
 [Render Site](https://spot-homes.onrender.com/)
 
 This project involved me working on frontend using React & Redux to create the elements and the backend using SQLLite3 and Sequelize build, Express to handle requests and then converting that SQLite3 db into a PostgresSQL db for producion
 
-Chara-stagram - Nov 2024
+### Chara-stagram - Nov 2024
 [GitHub Repo](https://github.com/Mcode4/Chara-stagram)
 
 Mostly for presentation purposes, this project involved me creating a frontend for a rest api(Made around Superheros) and using vanilla js to handle routes.
