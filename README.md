@@ -15,7 +15,7 @@ This project involved me working on frontend using React & Redux to create the e
 
 Chara-stagram - Nov 2024
 [GitHub Repo](https://github.com/Mcode4/Chara-stagram)
-Mostly for presentation purposes, this project involved me creating a frontend for a rest api(Made around Superheros) and a route handle using vanilla js.
+Mostly for presentation purposes, this project involved me creating a frontend for a rest api(Made around Superheros) and using vanilla js to handle routes.
 
 ## Contact Section
 Email: lam7dev7@gmail.com
