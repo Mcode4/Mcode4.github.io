@@ -10,15 +10,16 @@ I am Software Engineer from Columbus, GA and passionate about software developme
 ## Projects Section
 Spot Homes Site - Jan 2025
 [Render Site](https://spot-homes.onrender.com/)
-[GitHub Repo](https://github.com/Mcode4/Spot-Homes-FullStack)
+
 This project involved me working on frontend using React & Redux to create the elements and the backend using SQLLite3 and Sequelize build, Express to handle requests and then converting that SQLite3 db into a PostgresSQL db for producion
 
 Chara-stagram - Nov 2024
 [GitHub Repo](https://github.com/Mcode4/Chara-stagram)
+
 Mostly for presentation purposes, this project involved me creating a frontend for a rest api(Made around Superheros) and using vanilla js to handle routes.
 
 ## Contact Section
-Email: lam7dev7@gmail.com
+Email: lamllc20@gmail.com
 
 ## Resume
 [First Copy](https://docs.google.com/document/d/1S0wTKThI_Huk2qb2w02_fV1CZVxlcMTkgWIWjQpTEM4/edit?usp=sharing)
