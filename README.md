@@ -8,7 +8,14 @@ I am Software Engineer from Columbus, GA and passionate about software developme
 2. Creative, Understanding, Problem Solving, Clear communicate, and focus on my tasks.
 
 ## Projects Section
-Showcase your work, including live demos or code samples.
+Spot Homes Site - Jan 2025
+https://spot-homes.onrender.com/
+https://github.com/Mcode4/Spot-Homes-FullStack
+This project involved me working on frontend using React & Redux to create the elements and the backend using SQLLite3 and Sequelize build, Express to handle requests and then converting that SQLite3 db into a PostgresSQL db for producion
+
+Chara-stagram - Nov 2024
+https://github.com/Mcode4/Chara-stagram
+Mostly for presentation purposes, this project involved me creating a frontend for a rest api(Made around Superheros) and a route handle using vanilla js.
 
 ## Contact Section
 Email: lam7dev7@gmail.com
