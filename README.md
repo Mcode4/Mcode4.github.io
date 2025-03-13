@@ -4,8 +4,16 @@
 I am Software Engineer from Columbus, GA and passionate about software development. I've being using computers since I was young with my passion being art at the time and I fulling transited into tech. I've been coding in JS for around a year and using Express and Sequelize for around half a year. Using Express I've been able to serve static files alot clears and better in my opinion alongwith using Sequelize to build the backend for a site or app, mostly using SQLite as the language. Recently I've worked with react and redux. React using jsx to render pages and add functionality to alot clearer than a html doc with js and using Redux to access and save values from the backend then use those values in a React frontend.
 
 ## Skills Section
-1. JS, HTML, CSS, ExpressJS, SQLite3, Sequelize, React, Redux, Python3
-2. Creative, Understanding, Problem Solving, Clear Communication
+
+
+### Frontend
+HTML, CSS, JS, React, Redux
+
+### Backend
+ExpressJS, SQLite3, Sequelize, Python3, Flask, Flask-SQLAlchemy, PostgresQL
+
+### Cloud
+Aws, Docker
 
 ## Projects Section
 ### Spot Homes Site - Jan 2025
