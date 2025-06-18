@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Hyperspace by HTML5 UP</title>
+		<title>Marcellies Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -36,7 +36,7 @@
 					<section id="intro" class="wrapper style1 fullscreen fade-up">
 						<div class="inner">
 							<p><span class="image left"><img src="images/BetterSelfie-modified.png" alt="" /></span><h1>Welcome to my portfolio</h1>
-							<p>I'm Marcellies. Software Engineer and Full Stack Developer</p></p>
+							<p>I'm Marcellies Armstrong. Software Engineer and Full Stack Developer</p></p>
 							
 							<ul class="actions">
 								<li><a href="#one" class="button scrolly">Learn more</a></li>
@@ -48,27 +48,27 @@
 					<section id="one" class="wrapper style3 fade-up">
 						<div class="inner">
 							<h2>About Me</h2>
-							<p>I'm a 21 y/o programmer specialized in web development, crafting dynamic and user-friendly websites. With expertise across the full stack, I am passionate about coding and learning new things. Some of my key points listed below.</p>
+							<p>I'm a programmer specialized in web development. I craft dynamic and user-friendly websites with expertise across the full stack. I'm passionate about coding and learning new things. Some of my key points listed below.</p>
 							<div class="features">
 								<section>
 									<span class="icon solid major fa-code"></span>
 									<h3>Stack</h3>
-									<p>I primarily work with HTML, CSS, and JavaScript, which I consider the backbone of web development. These technologies enable me to create responsive, accessible, and visually appealing websites, and I value them as essential skills for building the web.</p>
+									<p>I primarily work with HTML, CSS, and JavaScript, which I consider the core of web development. These technologies enable me to create responsive, accessible, and visually appealing websites, and I value them as essential skills for building the applications.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-lock"></span>
-									<h3>Api Control</h3>
-									<p>I've experimented with and implemented restful api before. The one being a superhero api where I had fetched data, parsed it, and used it in an application. Similar to how the frontend gets data from the backend.</p>
+									<h3>API Control</h3>
+									<p>I've experimented with and implemented restful API while creating apps. One being a superhero API that fetched data on a character. This allowed me to create an application without the need of a backend.</p>
 								</section>
 								<section>
 									<span class="icon solid major fa-link"></span>
 									<h3>Code-to-Cloud</h3>
-									<p>For my projects listed, which are sites, have been hosted to the internet with the help of Render. I've also had some experience with Docker, AWS, and Github Pages to add to that.</p>
+									<p>My projects listed below have been hosted to the internet with the help of Render. I've also had some experience with Docker, AWS, and Github Pages as well.</p>
 								</section>
 								<section>
 									<span class="icon major fa-gem"></span>
 									<h3>Systems Thinking</h3>
-									<p>When I start a project, I like to get a feel of what the structure should be. Usually I keep frontend and backend on seperate folder and add in files that match the folder. Like HTML and pages in frontend and database in backend. Assets and documents has its own folders.</p>
+									<p>Starting a project, I get a feel of what the structure should be and data should flow. Usually frontend and backend in seperate folders where data flows from database API in backend to frontend.</p>
 								</section>
 							</div>
 							<ul class="actions">
@@ -160,7 +160,7 @@
 							<div class="content">
 								<div class="inner">
 									<h2>Spot Homes</h2>
-									<p>Home listing site for users to list and buy spots</p>
+									<p>Home listing site where users can list and buy spots</p>
 									<ul class="actions">
 										<li><a href="projects/spot/generic.html" class="button">Learn more</a></li>
 									</ul>
@@ -176,7 +176,7 @@
 							<p>Feel free to reach out or leave a comment. You can currently connect with me on LinkedIn and GitHub, with more platforms coming soon.</p>
 							<div class="split style1">
 								<section>
-									<form method="post" action="#">
+									<form method="post">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -192,10 +192,40 @@
 											</div>
 										</div>
 										<ul class="actions">
-											<li><a href="" class="button submit">Send Message</a></li>
+											<li><button class="button submit" type="submit">Send Message</button></li>
 										</ul>
 									</form>
 								</section>
+								<script type="text/javascript"
+										src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+								</script>
+								<script type="text/javascript">
+									(function(){
+										emailjs.init({
+											publicKey: "7dS84rSvHOSnK0kRK",
+										});
+									})();
+								</script>
+								<script>
+									document.addEventListener("DOMContentLoaded", ()=>{
+										const form = document.querySelector("form")
+
+										form.addEventListener("submit", (e)=>{
+											e.preventDefault()
+
+											const name = document.querySelector("#name").value.trim()
+											const email = document.querySelector("#email").value.trim()
+											const message = document.querySelector("#message").value.trim()
+
+											emailjs.send('portfolioID1', 'porfolioID1Auto-Reply', {name, email, message}).then((response)=>{
+												console.log('SUCCESS!', response.status, response.text)
+											},
+											(error) => {
+												console.log('FAILED...', error);
+											})
+										})
+									})
+								</script>
 								<section>
 									<ul class="contact">
 										<li>
