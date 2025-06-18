@@ -176,7 +176,7 @@
 							<p>Feel free to reach out or leave a comment. You can currently connect with me on LinkedIn and GitHub, with more platforms coming soon.</p>
 							<div class="split style1">
 								<section>
-									<form method="post">
+									<form id="porfolioID1Auto-Reply">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -192,7 +192,7 @@
 											</div>
 										</div>
 										<ul class="actions">
-											<li><button class="button submit" type="submit">Send Message</button></li>
+											<li><input class="button submit" type="submit" value='Send Message' /></li>
 										</ul>
 									</form>
 								</section>
@@ -208,22 +208,29 @@
 								</script>
 								<script>
 									document.addEventListener("DOMContentLoaded", ()=>{
-										const form = document.querySelector("form")
+										const form = document.getElementById("porfolioID1Auto-Reply")
+										console.log("form", form)
 
-										form.addEventListener("submit", (e)=>{
+										form.addEventListener("submit", function(e){
+											
+											console.log('Sumbitted')
 											e.preventDefault()
 
 											const name = document.querySelector("#name").value.trim()
 											const email = document.querySelector("#email").value.trim()
 											const message = document.querySelector("#message").value.trim()
 
-											emailjs.send('portfolioID1', 'porfolioID1Auto-Reply', {name, email, message}).then((response)=>{
-												console.log('SUCCESS!', response.status, response.text)
-											},
-											(error) => {
-												console.log('FAILED...', error);
-											})
+											// emailjs.send('portfolioID1', 'porfolioID1Auto-Reply', {name, email, message}).then((response)=>{
+											// 	console.log('SUCCESS!', response.status, response.text)
+											// },
+											// (error) => {
+											// 	console.log('FAILED...', error);
+											// })
+
+											
 										})
+
+										console.log(submitForm)
 									})
 								</script>
 								<section>
