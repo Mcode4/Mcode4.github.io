@@ -176,7 +176,7 @@
 							<p>Feel free to reach out or leave a comment. You can currently connect with me on LinkedIn and GitHub, with more platforms coming soon.</p>
 							<div class="split style1">
 								<section>
-									<form id="porfolioID1Auto-Reply">
+									<!-- <form id="porfolioID1Auto-Reply">
 										<div class="fields">
 											<div class="field half">
 												<label for="name">Name</label>
@@ -194,6 +194,25 @@
 										<ul class="actions">
 											<li><input class="button submit" type="submit" value='Not working at the time' /></li>
 										</ul>
+									</form> -->
+									<form>
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><button class="button" type="submit">Submit</button></li>
+										</ul>
 									</form>
 								</section>
 								<script type="text/javascript"
@@ -208,29 +227,27 @@
 								</script>
 								<script>
 									document.addEventListener("DOMContentLoaded", ()=>{
-										const form = document.getElementById("porfolioID1Auto-Reply")
+										const form = document.querySelector("form")
 										console.log("form", form)
 
 										form.addEventListener("submit", function(e){
-											
-											console.log('Sumbitted')
 											e.preventDefault()
+											console.log('Sumbitted')
+											
 
 											const name = document.querySelector("#name").value.trim()
 											const email = document.querySelector("#email").value.trim()
 											const message = document.querySelector("#message").value.trim()
 
-											// emailjs.send('portfolioID1', 'porfolioID1Auto-Reply', {name, email, message}).then((response)=>{
-											// 	console.log('SUCCESS!', response.status, response.text)
-											// },
-											// (error) => {
-											// 	console.log('FAILED...', error);
-											// })
+											emailjs.send('portfolioID1', 'porfolioID1Auto-Reply', {name, email, message}).then((response)=>{
+												console.log('SUCCESS!', response.status, response.text)
+											},
+											(error) => {
+												console.log('FAILED...', error);
+											})
 
 											
 										})
-
-										console.log(submitForm)
 									})
 								</script>
 								<section>
