@@ -241,6 +241,10 @@
 
 											emailjs.send('portfolioID1', 'porfolioID1Auto-Reply', {name, email, message}).then((response)=>{
 												console.log('SUCCESS!', response.status, response.text)
+												window.alert('Email sent sucessfully!')
+												document.querySelector("#name").value = ""
+												document.querySelector("#email").value = ""
+												document.querySelector("#message").value = ""
 											},
 											(error) => {
 												console.log('FAILED...', error);
