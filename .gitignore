@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Secrets / environment files
+.env
+.env.*
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
+npm-debug.log*
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.sass-cache/
